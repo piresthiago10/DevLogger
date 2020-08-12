@@ -1,1 +1,10 @@
-<p>log-form works!</p>
+<div class="card card-body mb-3">
+    <form (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <!-- Só é possível utilizar o ngModel após adicionálo em app.module-->
+            <input type="text" name="text" [(ngModel)]="text" class="form-control" placeholder="Adicione um log...">
+            <input type="submit" value="Adicionar Log" class="btn btn-light" [disabled]="!this.text">
+            <button (click)="clearState()" type="button" class="btn btn-warning" [hidden]=!this.text>Limpar</button>
+        </div>
+    </form>
+</div>
