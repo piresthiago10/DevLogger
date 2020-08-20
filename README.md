@@ -4,7 +4,7 @@ Simples projeto para demonstrar algumas das funcionalidades do Angular através 
 
 # Autores:
 
-* **Thiago** - *Desenvolvedor Frontend e Backend*;
+* **Thiago** - *Desenvolvedor FullStack*;
 
 ## Requisitos do sistema:
 
